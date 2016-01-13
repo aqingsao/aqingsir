@@ -243,3 +243,15 @@
         }
     }
 }
+
+/**
+ * About
+ */
+.about-list {
+  list-style: none;
+  margin: 0;
+  .about-item{
+    border-bottom: 1px solid #eee;
+    padding: 1em 0;
+  }
+}
