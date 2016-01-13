@@ -1,5 +1,3 @@
 jekyll serve --detach
-pid=$!
-echo $pid > /var/run/aqingsir/aqingsir.pid
-
-echo "start aqingsir with pid $pid"
+echo `ps -ef | grep jekyll | grep -v grep | awk '{print $2}' ` > /var/run/aqingsir/aqingsir.pid
+echo 'start successfully'
