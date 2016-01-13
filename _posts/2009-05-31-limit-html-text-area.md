@@ -3,7 +3,7 @@ layout: post
 title: "HTML textarea输入框限制长度"
 keywords: Web, HTML, textarea, 限制长度
 description: "解决了在HTML中如何限制Text Area输入指定长度的问题"
-tags: [Html]
+tags: [HTML]
 ---
 
 textarea是多行的HTML文本输入控件，文本区中可容纳无限数量的文本。一般用于需要输入较多文本的场景，比如描述、评论、反馈、文章内容等。我们可以通过cols和rows属性，或者使用CSS的height和width属性规定其尺寸，但如何限制输入文本的长度呢？
